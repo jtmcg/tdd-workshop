@@ -1,4 +1,4 @@
-import queryOpenAI from './firstTest';
+import queryOpenAI from './1-firstTest';
 
 describe('firstTest', () => {
     it('should return a response string', () => {
@@ -8,5 +8,5 @@ describe('firstTest', () => {
 
 /**
  * Test Command:
- * `npm test ./doItLive/firstTest.test.js`
+ * `npm test ./doItLive/1-firstTest.test.js`
 */
