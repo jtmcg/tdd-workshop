@@ -1,0 +1,30 @@
+{
+  "name": "tdd-workshop",
+  "version": "0.1.0",
+  "description": "demo for a tdd workshop",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start-bad": "node demoBad.js",
+    "start-good": "node demoGood.js",
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "author": "@jtmcg",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@jest/globals": "^29.7.0",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "core-js": "^3.38.1",
+    "openai": "^4.68.4"
+  }
+}
