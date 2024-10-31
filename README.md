@@ -44,6 +44,10 @@ To run the tests, use the following command
 
 `npm test ./goodExample/goodExample.test.js`
 
+### Do It Live
+
+This is the part of the repo I demoed the workshop out of. Feel free to use it as a sort of "problem set" to try your hand at TDD. The tests for each step are written for you, but the code for each step is broken. See if you can iterate your way to my solution on your own.
+
 ## Reaching out
 
 Feel free to open up a [Discussion](https://github.com/jtmcg/tdd-workshop/discussions/new?category=q-a) in the repo to ask me any questions you may have about the workshop or the code.
